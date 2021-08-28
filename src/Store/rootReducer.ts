@@ -4,7 +4,7 @@ import { AppAction, ActionTypes } from './actions'
 type MainState = {
     isLoading: boolean,
     useCases: string[],
-    useCaseDataBySlug: {}
+    useCaseDataBySlug: any
 }
 
 const initialState: MainState = {
@@ -26,6 +26,20 @@ const MainReducer = (state: MainState = initialState, action: AppAction) => {
             return {
                 ...state,
                 ...action.payload,
+            }
+        case ActionTypes.SetCampaignData:
+            // TODO
+            // @ts-ignore
+            // eslint-disable-next-line no-case-declarations
+            const docsBag = [...state.useCaseDataBySlug[action.payload.slug].campaign.docs, ...action.payload.campaign.docs ]
+            // @ts-ignore
+            state.useCaseDataBySlug[action.payload.slug].campaign = { ...action.payload.campaign }
+            // @ts-ignore
+            state.useCaseDataBySlug[action.payload.slug].campaign.docs = docsBag
+
+            return {
+                ...state,
+
             }
         default:
             return state

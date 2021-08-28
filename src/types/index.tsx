@@ -12,7 +12,7 @@ export interface UseCase {
 }
 
 /* The 'CampaignData' that has been fetched from the backend */
-export interface CampaignData {
+export interface Campaign {
     // docs: (12) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
     hasNextPage: boolean;
     hasPrevPage: boolean;
@@ -24,11 +24,6 @@ export interface CampaignData {
     prevPage: number;
     totalDocs: number;
     totalPages: number;
-}
-
-/* The enriched 'Campaign' which will be used in the app */
-export interface Campaign extends CampaignData {
-    useCaseSlug: string
 }
 
 export interface Doc {

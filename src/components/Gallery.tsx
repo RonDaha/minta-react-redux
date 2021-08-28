@@ -1,8 +1,12 @@
 import styled from 'styled-components'
 import { GalleryItem } from './GalleryItem'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { AppState } from '../Store/rootReducer'
 import { usePath } from '../hooks'
+import request from '../request'
+import { Campaign } from '../types'
+import { ActionTypes, AppAction } from '../Store/actions'
+import { Dispatch } from 'react'
 
 const headerHeight = '65px'
 
@@ -69,6 +73,29 @@ export const Gallery = () => {
             return <GalleryItem key={doc._id} videoUrl={doc.videos[0].url} poster={doc.videos[0].previewImage} />
         })
     }
+
+    const dispatch = useDispatch<Dispatch<AppAction>>()
+
+    const loadMore = async () => {
+        const offset = appState.useCaseDataBySlug[path].campaign.pagingCounter + 5
+        const campaignId: string = appState.useCaseDataBySlug[path].useCase.campaignId
+        const mintaDevToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTg0OGQ2YWU1MWMwNzQ5ODRhYTdlYjEiLCJyb2xlcyI6WyJ1c2VyIl0sImlhdCI6MTU4NTc0NTI1OSwiZXhwIjoxNTg1ODMxNjU5fQ.S61K8RkHJ6qwxRjp9m2Pfvttd6hRBOyWRO3TimRkJA4'
+        const url = `https://dev.withminta.com/generate-video/videos/findByCampaign?campaignId=${campaignId}&offset=${offset}&limit=6&applicationSource=web`
+        // TODO
+        const res: any = await request<Campaign>(url, { headers: { Authorization: mintaDevToken } })
+        console.log(res)
+        dispatch({ type: ActionTypes.SetCampaignData, payload: { slug: path, campaign: res } })
+    }
+
+    let showMoreBtn = null
+    if (appState && appState.useCaseDataBySlug[path] && appState.useCaseDataBySlug[path].campaign.hasNextPage) {
+        showMoreBtn = <ShowMoreBtnWrapper>
+            <ShowMoreBtn onClick={loadMore}>
+                Show More
+            </ShowMoreBtn>
+        </ShowMoreBtnWrapper>
+    }
+
     return (
         <Container>
             <GalleryHeader>
@@ -76,13 +103,8 @@ export const Gallery = () => {
             </GalleryHeader>
             <GalleryContainer>
                 {GalleryItemsToRender}
-                <GalleryItem />
             </GalleryContainer>
-            <ShowMoreBtnWrapper>
-                <ShowMoreBtn>
-                    Show More
-                </ShowMoreBtn>
-            </ShowMoreBtnWrapper>
+            {showMoreBtn}
         </Container>
     )
 }
