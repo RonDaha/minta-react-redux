@@ -33,9 +33,12 @@ const Item = styled.div`
     }
 `
 
-export const GalleryItem = () => {
-
-    const videoRef = useRef(null)
+// TODO - add type
+export const GalleryItem = (props: any) => {
+    // todo
+    const { videoUrl, poster } = props
+    // todo
+    const videoRef: any = useRef(null)
     const [state, setState] = useState({ isPlay: false })
 
     useEffect(() => {
@@ -60,8 +63,8 @@ export const GalleryItem = () => {
     return (
         <Item onClick={controlVideo}>
             {state.isPlay ? <ControlIcon className='hide-on-play' src={PauseIcon} alt="play-icon"/> : <ControlIcon src={PlayIcon} alt="play-icon"/> }
-            <video ref={videoRef} width="100%" height="100%" poster="https://campaigns.withminta.com/2938/0000/eysj2bk8il1c26r1w25w18y1u202m3ikr11jhm3ji_image1.jpg">
-                <source src="https://campaigns.withminta.com/2938/0000/eysj2bk8il1c26r1w25w18y1u202m3ikr11jhm3ji.mp4" type="video/mp4"/>
+            <video ref={videoRef} width="100%" height="100%" poster={poster}>
+                <source src={videoUrl} type="video/mp4"/>
                 Sorry, your browser does not support embedded videos.
             </video>
         </Item>

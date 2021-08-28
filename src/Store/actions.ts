@@ -7,7 +7,7 @@ export enum ActionTypes {
 
 export interface InitialDataPayload {
     useCases: UseCase[],
-    campaigns: Campaign[],
+    useCaseDataBySlug: any,
     error?: Error
 }
 

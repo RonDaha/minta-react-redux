@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 import { GalleryItem } from './GalleryItem'
+import { useSelector } from 'react-redux'
+import { AppState } from '../Store/rootReducer'
+import { usePath } from '../hooks'
 
 const headerHeight = '65px'
 
@@ -53,18 +56,27 @@ const ShowMoreBtn = styled.button`
 `
 
 export const Gallery = () => {
+
+
+    const path = usePath()
+    // TODO - add type
+    const appState: any = useSelector<AppState>((state: AppState) => state.main)
+    // TODO - add type
+    let GalleryItemsToRender: any = []
+    if (path && appState.useCaseDataBySlug[path]) {
+        // TODO - add type
+        GalleryItemsToRender = appState.useCaseDataBySlug[path].campaign.docs.map((doc: any) => {
+            return <GalleryItem key={doc._id} videoUrl={doc.videos[0].url} poster={doc.videos[0].previewImage} />
+        })
+    }
     return (
         <Container>
             <GalleryHeader>
-                #New In
+                #{appState?.useCaseDataBySlug[path]?.useCase?.name }
             </GalleryHeader>
             <GalleryContainer>
-                <GalleryItem/>
-                <GalleryItem/>
-                <GalleryItem/>
-                <GalleryItem/>
-                <GalleryItem/>
-                <GalleryItem/>
+                {GalleryItemsToRender}
+                <GalleryItem />
             </GalleryContainer>
             <ShowMoreBtnWrapper>
                 <ShowMoreBtn>

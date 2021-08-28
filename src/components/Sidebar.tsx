@@ -37,15 +37,14 @@ export const Sidebar = () => {
 
     let history = useHistory()
     const dispatch = useDispatch<Dispatch<AppAction>>()
-    const { useCases, chosenSlug } = useSelector((state: AppState) => state.main)
+    // TODO
+    const appState: any = useSelector<AppState>((state: AppState) => state.main)
     const setChosenSlug = (slug: string) => {
         dispatch({ type: ActionTypes.SetChosenSlug, payload: { chosenSlug: slug } })
         history.push('/' + slug)
     }
-
-
-    const useCasesToDisplay = useCases.map((useCase: UseCase) => {
-        return <UseCaseStyle className={chosenSlug === useCase.slug ? 'active' : ''} key={useCase.slug} onClick={() => setChosenSlug(useCase.slug)}>
+    const useCasesToDisplay = appState.useCases.map((useCase: UseCase) => {
+        return <UseCaseStyle className={appState.chosenSlug === useCase.slug ? 'active' : ''} key={useCase.slug} onClick={() => setChosenSlug(useCase.slug)}>
             # {useCase.name}
         </UseCaseStyle>
     })

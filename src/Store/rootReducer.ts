@@ -4,13 +4,13 @@ import { AppAction, ActionTypes } from './actions'
 type MainState = {
     isLoading: boolean,
     useCases: string[],
-    campaignDataBySlug: {}
+    useCaseDataBySlug: {}
 }
 
 const initialState: MainState = {
     isLoading: true,
     useCases: [],
-    campaignDataBySlug: {}
+    useCaseDataBySlug: {}
 }
 
 const MainReducer = (state: MainState = initialState, action: AppAction) => {
