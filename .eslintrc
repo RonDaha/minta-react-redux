@@ -1,0 +1,30 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+
+  "globals": {
+    "React": true,
+    "Promise": true,
+    "google": true
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "object-curly-spacing": [2, "always"],
+    "semi": ["error", "never"],
+    "no-unused-vars": "warn",
+    "no-unused-labels": "error",
+    "quotes": ["error", "single"],
+    "operator-linebreak": "off",
+    "multiline-ternary": ["error", "never"],
+    "object-property-newline": ["error", { "allowMultiplePropertiesPerLine": true }],
+    "function-call-argument-newline": ["error", "never"],
+    "react/prop-types": 0,
+    "react/forbid-prop-types": 0
+  }
+}
