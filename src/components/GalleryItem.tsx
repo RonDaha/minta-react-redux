@@ -1,8 +1,8 @@
 import styled from 'styled-components'
+import { useEffect, useRef, useState } from 'react'
 import PlayIcon from '../assets/icons/play.png'
 import PauseIcon from '../assets/icons/pause.png'
-import { useEffect, useRef, useState } from 'react'
-
+import { GalleryItemProps } from '../types'
 
 const ControlIcon = styled.img`
     width: 65px;
@@ -33,11 +33,8 @@ const Item = styled.div`
     }
 `
 
-// TODO - add type
-export const GalleryItem = (props: any) => {
-    // todo
-    const { videoUrl, poster } = props
-    // todo
+export const GalleryItem = ({ videoUrl, poster }: GalleryItemProps) => {
+
     const videoRef: any = useRef(null)
     const [state, setState] = useState({ isPlay: false })
 

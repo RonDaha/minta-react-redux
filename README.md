@@ -1,21 +1,6 @@
-# Getting Started with Create React App
+# React Redux Home Exercise - Ron Dahan
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In the project directory, run:
 
-## Available Scripts
-
-In the project directory, you can run:
-
+### `npm install`
 ### `npm start`
-
-TODO
-1. Build the ui section
-2. Add routes (Routers)
-3. Components
-   1. Sidebar (Per Routes)
-   2. Sidebar
-   3. VideoCard
-   4. Loader
-4. Services
-   1. HttpService
-   2. CoreService

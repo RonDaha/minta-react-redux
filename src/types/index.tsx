@@ -11,9 +11,8 @@ export interface UseCase {
     __v: number;
 }
 
-/* The 'CampaignData' that has been fetched from the backend */
 export interface Campaign {
-    // docs: (12) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+    docs: Doc[];
     hasNextPage: boolean;
     hasPrevPage: boolean;
     limit: boolean;
@@ -27,5 +26,16 @@ export interface Campaign {
 }
 
 export interface Doc {
+    _id: string;
+    videos: DocVideo[];
+}
 
+export interface DocVideo {
+    previewImage: string;
+    url: string;
+}
+
+export interface GalleryItemProps {
+    videoUrl: string;
+    poster: string;
 }

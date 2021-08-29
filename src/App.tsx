@@ -2,99 +2,52 @@ import React, { Dispatch, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useHistory } from 'react-router-dom'
 
-import styled from 'styled-components'
 import { ActionTypes, AppAction, InitialDataPayload } from './Store/actions'
-import request from './request'
 import { Sidebar } from './components/Sidebar'
 import { Gallery } from './components/Gallery'
-import { Campaign, UseCase } from './types'
-import { AppState } from './Store/rootReducer'
 import { AppLoader } from './components/Loader'
 import { usePath } from './hooks'
+import { RequestHandler } from './utils/requestHandler'
+import { MainState } from './Store/rootReducer'
 
+const App = () => {
 
+    const dispatch: Dispatch<AppAction> = useDispatch<Dispatch<AppAction>>()
+    const path: string = usePath()
+    const history = useHistory()
+    const { isLoading, useCaseDataBySlug }: MainState = useSelector((state: MainState) => state)
 
-// TODO - move it
-const mintaDevToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTg0OGQ2YWU1MWMwNzQ5ODRhYTdlYjEiLCJyb2xlcyI6WyJ1c2VyIl0sImlhdCI6MTU4NTc0NTI1OSwiZXhwIjoxNTg1ODMxNjU5fQ.S61K8RkHJ6qwxRjp9m2Pfvttd6hRBOyWRO3TimRkJA4'
-const getCampaignData = (campaignId: string): Promise<Campaign> => {
-    const url = `https://dev.withminta.com/generate-video/videos/findByCampaign?campaignId=${campaignId}&offset=0&limit=6&applicationSource=web`
-    return request<Campaign>(url, { headers: { Authorization: mintaDevToken } })
-}
-
-const init = async (): Promise<InitialDataPayload> => {
-    try {
-        const useCasesResponse: UseCase[] = await request<UseCase[]>('https://run.mocky.io/v3/3eed5c28-1965-4ba9-ac00-6c8a9ca240ba')
-        // TODO - add type
-        const useCaseDataBySlug: any = {}
-        const campaignPromises: Promise<void>[] = useCasesResponse.map((useCase: UseCase) => {
-            return getCampaignData(useCase.campaignId)
-                .then((campaign: Campaign) => {
-                    if (!useCaseDataBySlug[useCase.slug]) {
-                        useCaseDataBySlug[useCase.slug] = { useCase, campaign: {} }
-                    }
-                    useCaseDataBySlug[useCase.slug].campaign = campaign
-                })
-                .catch(e => {
-                    // todo handle error here
-                })
-        })
-        await Promise.allSettled(campaignPromises)
-        return {
-            useCases: useCasesResponse,
-            useCaseDataBySlug
-        }
-    } catch (e) {
-        // TODO - handle Error here.
-        console.log(e)
-        return { useCases:[], useCaseDataBySlug: {}, error: e }
-    }
-}
-
-
-const AppContainer = styled.div`
-  display: flex;
-`
-
-
-function App() {
-
-    const dispatch = useDispatch<Dispatch<AppAction>>()
-    const path = usePath()
-    let history = useHistory()
-    const { isLoading, useCaseDataBySlug } = useSelector((state: AppState) => state.main)
     const initApp = async (): Promise<void> => {
-        const data: InitialDataPayload = await init()
-        console.log(data)
+        const data: InitialDataPayload = await RequestHandler.init()
         dispatch({ type: ActionTypes.SetInitialData, payload: data })
     }
 
-
+    /* Fetch the essential data to init the app */
     useEffect(() => {
         initApp()
     }, [])
 
+    /*
+    Default to the first available slug
+    in case the user manually typed
+    none-existing slug on the URL
+    */
     useEffect(() => {
         const slugKeys = Object.keys(useCaseDataBySlug)
-        let slug = null
-        if (slugKeys.includes(path)) {
-            slug = path
-        } else {
-            slug = slugKeys[0]
+        const slug: string = slugKeys.includes(path) ? path : slugKeys[0]
+        if (slug) {
+            dispatch({ type: ActionTypes.SetChosenSlug, payload: { chosenSlug: slug } })
+            history.push('/' + slug)
         }
-
-        dispatch({ type: ActionTypes.SetChosenSlug, payload: { chosenSlug: slug } })
-        history.push('/' + slug)
-        // console.log(path)
-        // console.log(useCaseDataBySlug)
     }, [isLoading])
 
 
   return (
-      <AppContainer>
+      <div className="App">
           {isLoading ? <AppLoader /> : null}
           <Sidebar/>
           <Gallery/>
-      </AppContainer>
+      </div>
   )
 }
 

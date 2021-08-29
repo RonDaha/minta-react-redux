@@ -1,54 +1,49 @@
-import { combineReducers } from 'redux'
-import { AppAction, ActionTypes } from './actions'
+import { AppAction, ActionTypes, UseCaseDataBySlug, CampaignDataPayload } from './actions'
+import { UseCase } from '../types'
 
-type MainState = {
+export type MainState = {
     isLoading: boolean,
-    useCases: string[],
-    useCaseDataBySlug: any
+    chosenSlug: string,
+    useCases: UseCase[],
+    useCaseDataBySlug: UseCaseDataBySlug,
+    error: Error | null
 }
 
 const initialState: MainState = {
     isLoading: true,
+    chosenSlug: '',
     useCases: [],
-    useCaseDataBySlug: {}
+    /* The 'slug' will be use as the key for easy access to the relevant data */
+    useCaseDataBySlug: {},
+    error: null
 }
 
-const MainReducer = (state: MainState = initialState, action: AppAction) => {
+const rootReducer = (state: MainState = initialState, action: AppAction) => {
     switch(action.type) {
         case ActionTypes.SetInitialData:
             return {
-                // TODO
                 ...state,
-                isLoading: false,
                 ...action.payload,
+                isLoading: false,
             }
         case ActionTypes.SetChosenSlug:
             return {
                 ...state,
-                ...action.payload,
+                ...action.payload
             }
         case ActionTypes.SetCampaignData:
-            // TODO
-            // @ts-ignore
-            // eslint-disable-next-line no-case-declarations
-            const docsBag = [...state.useCaseDataBySlug[action.payload.slug].campaign.docs, ...action.payload.campaign.docs ]
-            // @ts-ignore
-            state.useCaseDataBySlug[action.payload.slug].campaign = { ...action.payload.campaign }
-            // @ts-ignore
-            state.useCaseDataBySlug[action.payload.slug].campaign.docs = docsBag
-
+            if ('slug' in action.payload) {
+                const payload: CampaignDataPayload = action.payload
+                const docsBag = [...state.useCaseDataBySlug[payload.slug].campaign.docs, ...payload.campaign.docs]
+                state.useCaseDataBySlug[payload.slug].campaign = { ...payload.campaign }
+                state.useCaseDataBySlug[payload.slug].campaign.docs = docsBag
+            }
             return {
-                ...state,
-
+                ...state
             }
         default:
             return state
     }
 }
-const rootReducer = combineReducers({
-    main: MainReducer,
-})
 
-// eslint-disable-next-line no-undef
-export type AppState = ReturnType<typeof rootReducer>
 export default rootReducer

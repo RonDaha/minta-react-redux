@@ -1,17 +1,17 @@
 import styled from 'styled-components'
-import { useHistory } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
+import React, { Dispatch, useEffect, useState } from 'react'
+
 import { GalleryItem } from './GalleryItem'
-import { AppState } from '../Store/rootReducer'
 import { usePath } from '../hooks'
-import request from '../request'
-import { Campaign } from '../types'
+import { Campaign, Doc } from '../types'
 import { ActionTypes, AppAction } from '../Store/actions'
-import { Dispatch, useState } from 'react'
 import { Loader } from './Loader'
+import { MainState } from '../Store/rootReducer'
+import { RequestHandler } from '../utils/requestHandler'
 
-const headerHeight = '65px'
-
+const headerHeight: string = '65px'
+const errorMsg: string = 'Seems like we having an issue :( please try later'
 const Container = styled.div`
     flex-grow: 2;
 `
@@ -62,63 +62,77 @@ const ShowMoreBtn = styled.button`
     }
 `
 
+const ErrorMsg = styled.div`
+    text-align: center;
+    font-size: 18px;
+`
+
+const initialState = { isLoadingMore: false, hasError: false }
 export const Gallery = () => {
 
-
     const path: string = usePath()
-    let history = useHistory()
-    const [isLoadingMore, setIsLoadingMore] = useState(false)
+    const [localState, setLocalState] = useState(initialState)
     const dispatch = useDispatch<Dispatch<AppAction>>()
-
-    const appState: any = useSelector<AppState>((state: AppState) => state.main)
-    // TODO - add type
+    const mainState: MainState = useSelector<MainState, MainState>((state: MainState) => state)
     let GalleryItemsToRender: any = []
+    /* Access the campaign's data by the path (the 'slug' from the url) */
+    if (path && mainState.useCaseDataBySlug[path]) {
+        GalleryItemsToRender = mainState.useCaseDataBySlug[path].campaign.docs.map((doc: Doc) => {
+            return <GalleryItem key={doc._id} videoUrl={doc.videos[0].url} poster={doc.videos[0].previewImage} />
+        })
+    }
 
-    if (path) {
-        // TODO - add type
-        if (appState.useCaseDataBySlug[path]) {
-            GalleryItemsToRender = appState.useCaseDataBySlug[path].campaign.docs.map((doc: any) => {
-                return <GalleryItem key={doc._id} videoUrl={doc.videos[0].url} poster={doc.videos[0].previewImage} />
-            })
+    /* Init the default local state each time the route has been changed */
+    useEffect(() => {
+        setLocalState(initialState)
+    }, [path])
+
+    /* Load more implementation */
+    const loadMore = async () => {
+        setLocalState({ ...localState, isLoadingMore: true })
+        const offset: number = mainState.useCaseDataBySlug[path].campaign.pagingCounter + 5
+        const campaignId: string = mainState.useCaseDataBySlug[path].useCase.campaignId
+        try {
+            const campaignData: Campaign = await RequestHandler.getCampaignDataById(campaignId, offset)
+            dispatch({ type: ActionTypes.SetCampaignData, payload: { slug: path, campaign: campaignData } })
+            setLocalState({ ...localState, isLoadingMore: false })
+        } catch (e) {
+            console.error(e)
+            setLocalState({ isLoadingMore: false, hasError: true })
         }
     }
 
-
-
-    const loadMore = async () => {
-        setIsLoadingMore(true)
-        const offset = appState.useCaseDataBySlug[path].campaign.pagingCounter + 5
-        const campaignId: string = appState.useCaseDataBySlug[path].useCase.campaignId
-        const mintaDevToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTg0OGQ2YWU1MWMwNzQ5ODRhYTdlYjEiLCJyb2xlcyI6WyJ1c2VyIl0sImlhdCI6MTU4NTc0NTI1OSwiZXhwIjoxNTg1ODMxNjU5fQ.S61K8RkHJ6qwxRjp9m2Pfvttd6hRBOyWRO3TimRkJA4'
-        const url = `https://dev.withminta.com/generate-video/videos/findByCampaign?campaignId=${campaignId}&offset=${offset}&limit=6&applicationSource=web`
-        // TODO
-        const res: any = await request<Campaign>(url, { headers: { Authorization: mintaDevToken } })
-        dispatch({ type: ActionTypes.SetCampaignData, payload: { slug: path, campaign: res } })
-        setIsLoadingMore(false)
-    }
-
     let buttonSection = null
-    if (appState && appState.useCaseDataBySlug[path] && appState.useCaseDataBySlug[path].campaign.hasNextPage) {
-        buttonSection = <ButtonSectionWrapper>
+    /* Display the 'Show More' btn in case the campaign hasNextPage */
+    if (mainState && mainState.useCaseDataBySlug[path] && mainState.useCaseDataBySlug[path].campaign.hasNextPage) {
+        buttonSection =
+        <ButtonSectionWrapper className="btn-section">
             <ShowMoreBtn onClick={loadMore}>
                 Show More
             </ShowMoreBtn>
         </ButtonSectionWrapper>
     }
 
-    if (isLoadingMore) {
-        buttonSection = <ButtonSectionWrapper><Loader /></ButtonSectionWrapper>
+    /* On Loading */
+    if (localState.isLoadingMore) {
+        buttonSection = <ButtonSectionWrapper className="btn-section"><Loader /></ButtonSectionWrapper>
+    }
+
+    /* On Error */
+    if (localState.hasError) {
+        buttonSection = <ButtonSectionWrapper className="btn-section">{errorMsg}</ButtonSectionWrapper>
     }
 
     return (
         <Container>
             <GalleryHeader>
-                #{appState?.useCaseDataBySlug[path]?.useCase?.name }
+                #{mainState?.useCaseDataBySlug[path]?.useCase?.name }
             </GalleryHeader>
-            <GalleryContainer>
+            <GalleryContainer className="gallery-container">
                 {GalleryItemsToRender}
                 {buttonSection}
             </GalleryContainer>
+            {mainState.error ? <ErrorMsg>{errorMsg}</ErrorMsg> : null}
         </Container>
     )
 }

@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 import { useDispatch, useSelector } from 'react-redux'
-import { AppState } from '../Store/rootReducer'
 import { useHistory } from 'react-router-dom'
 import { UseCase } from '../types'
 import { Dispatch } from 'react'
 import { ActionTypes, AppAction } from '../Store/actions'
+import { MainState } from '../Store/rootReducer'
 
 const Container = styled.div`
   width: 300px;
@@ -18,7 +18,7 @@ const Title = styled.h1`
     padding: 15px 20px;
 `
 
-const UseCaseStyle = styled.h2`
+const UseCaseWrapper = styled.h2`
     font-size: 14px;
     line-height: 22px;
     padding: 6px 20px;
@@ -36,22 +36,24 @@ const UseCaseStyle = styled.h2`
 export const Sidebar = () => {
 
     let history = useHistory()
-    const dispatch = useDispatch<Dispatch<AppAction>>()
-    // TODO
-    const appState: any = useSelector<AppState>((state: AppState) => state.main)
+    const dispatch: Dispatch<AppAction> = useDispatch<Dispatch<AppAction>>()
+    const mainState: MainState = useSelector<MainState, MainState>((state: MainState) => state)
+
+    /* Set chosen slug */
     const setChosenSlug = (slug: string) => {
         dispatch({ type: ActionTypes.SetChosenSlug, payload: { chosenSlug: slug } })
         history.push('/' + slug)
     }
-    const useCasesToDisplay = appState.useCases.map((useCase: UseCase) => {
-        return <UseCaseStyle className={appState.chosenSlug === useCase.slug ? 'active' : ''} key={useCase.slug} onClick={() => setChosenSlug(useCase.slug)}>
+
+    const useCasesToDisplay = mainState.useCases.map((useCase: UseCase) => {
+        return <UseCaseWrapper className={mainState.chosenSlug === useCase.slug ? 'active' : ''} key={useCase.slug} onClick={() => setChosenSlug(useCase.slug)}>
             # {useCase.name}
-        </UseCaseStyle>
+        </UseCaseWrapper>
     })
 
 
     return (
-        <Container>
+        <Container className="sidebar-container">
             <Title>
                 Mints
             </Title>

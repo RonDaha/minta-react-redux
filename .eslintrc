@@ -25,6 +25,7 @@
     "object-property-newline": ["error", { "allowMultiplePropertiesPerLine": true }],
     "function-call-argument-newline": ["error", "never"],
     "react/prop-types": 0,
-    "react/forbid-prop-types": 0
+    "react/forbid-prop-types": 0,
+    "no-case-declarations": 0
   }
 }
