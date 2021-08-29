@@ -1,5 +1,7 @@
 import React, { Dispatch, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { useHistory } from 'react-router-dom'
+
 import styled from 'styled-components'
 import { ActionTypes, AppAction, InitialDataPayload } from './Store/actions'
 import request from './request'
@@ -8,7 +10,8 @@ import { Gallery } from './components/Gallery'
 import { Campaign, UseCase } from './types'
 import { AppState } from './Store/rootReducer'
 import { AppLoader } from './components/Loader'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { usePath } from './hooks'
+
 
 
 // TODO - move it
@@ -56,26 +59,42 @@ const AppContainer = styled.div`
 function App() {
 
     const dispatch = useDispatch<Dispatch<AppAction>>()
+    const path = usePath()
+    let history = useHistory()
+    const { isLoading, useCaseDataBySlug } = useSelector((state: AppState) => state.main)
     const initApp = async (): Promise<void> => {
         const data: InitialDataPayload = await init()
+        console.log(data)
         dispatch({ type: ActionTypes.SetInitialData, payload: data })
     }
 
-    const { isLoading } = useSelector((state: AppState) => state.main)
 
     useEffect(() => {
         initApp()
     }, [])
 
+    useEffect(() => {
+        const slugKeys = Object.keys(useCaseDataBySlug)
+        let slug = null
+        if (slugKeys.includes(path)) {
+            slug = path
+        } else {
+            slug = slugKeys[0]
+        }
+
+        dispatch({ type: ActionTypes.SetChosenSlug, payload: { chosenSlug: slug } })
+        history.push('/' + slug)
+        // console.log(path)
+        // console.log(useCaseDataBySlug)
+    }, [isLoading])
+
 
   return (
-      <Router>
-          <AppContainer>
-              {isLoading ? <AppLoader /> : null}
-              <Sidebar/>
-              <Gallery/>
-          </AppContainer>
-      </Router>
+      <AppContainer>
+          {isLoading ? <AppLoader /> : null}
+          <Sidebar/>
+          <Gallery/>
+      </AppContainer>
   )
 }
 

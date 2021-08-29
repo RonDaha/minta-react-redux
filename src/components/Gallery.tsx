@@ -1,6 +1,7 @@
 import styled from 'styled-components'
-import { GalleryItem } from './GalleryItem'
+import { useHistory } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
+import { GalleryItem } from './GalleryItem'
 import { AppState } from '../Store/rootReducer'
 import { usePath } from '../hooks'
 import request from '../request'
@@ -65,19 +66,24 @@ export const Gallery = () => {
 
 
     const path: string = usePath()
+    let history = useHistory()
     const [isLoadingMore, setIsLoadingMore] = useState(false)
+    const dispatch = useDispatch<Dispatch<AppAction>>()
 
     const appState: any = useSelector<AppState>((state: AppState) => state.main)
     // TODO - add type
     let GalleryItemsToRender: any = []
-    if (path && appState.useCaseDataBySlug[path]) {
+
+    if (path) {
         // TODO - add type
-        GalleryItemsToRender = appState.useCaseDataBySlug[path].campaign.docs.map((doc: any) => {
-            return <GalleryItem key={doc._id} videoUrl={doc.videos[0].url} poster={doc.videos[0].previewImage} />
-        })
+        if (appState.useCaseDataBySlug[path]) {
+            GalleryItemsToRender = appState.useCaseDataBySlug[path].campaign.docs.map((doc: any) => {
+                return <GalleryItem key={doc._id} videoUrl={doc.videos[0].url} poster={doc.videos[0].previewImage} />
+            })
+        }
     }
 
-    const dispatch = useDispatch<Dispatch<AppAction>>()
+
 
     const loadMore = async () => {
         setIsLoadingMore(true)
