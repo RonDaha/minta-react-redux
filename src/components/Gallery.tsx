@@ -6,7 +6,8 @@ import { usePath } from '../hooks'
 import request from '../request'
 import { Campaign } from '../types'
 import { ActionTypes, AppAction } from '../Store/actions'
-import { Dispatch } from 'react'
+import { Dispatch, useState } from 'react'
+import { Loader } from './Loader'
 
 const headerHeight = '65px'
 
@@ -27,7 +28,7 @@ const GalleryHeader = styled.div`
 const GalleryContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 30px;
+    row-gap: 20px;
     column-gap: 30px;
     max-height: calc(100vh - ${headerHeight});
     overflow-y: scroll;
@@ -36,9 +37,10 @@ const GalleryContainer = styled.div`
     padding: 40px;
 `
 
-const ShowMoreBtnWrapper = styled.div`
+const ButtonSectionWrapper = styled.div`
     width: 100%;
     text-align: center;
+    grid-column: 1 / 4
 `
 
 const ShowMoreBtn = styled.button`
@@ -62,8 +64,9 @@ const ShowMoreBtn = styled.button`
 export const Gallery = () => {
 
 
-    const path = usePath()
-    // TODO - add type
+    const path: string = usePath()
+    const [isLoadingMore, setIsLoadingMore] = useState(false)
+
     const appState: any = useSelector<AppState>((state: AppState) => state.main)
     // TODO - add type
     let GalleryItemsToRender: any = []
@@ -77,23 +80,28 @@ export const Gallery = () => {
     const dispatch = useDispatch<Dispatch<AppAction>>()
 
     const loadMore = async () => {
+        setIsLoadingMore(true)
         const offset = appState.useCaseDataBySlug[path].campaign.pagingCounter + 5
         const campaignId: string = appState.useCaseDataBySlug[path].useCase.campaignId
         const mintaDevToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTg0OGQ2YWU1MWMwNzQ5ODRhYTdlYjEiLCJyb2xlcyI6WyJ1c2VyIl0sImlhdCI6MTU4NTc0NTI1OSwiZXhwIjoxNTg1ODMxNjU5fQ.S61K8RkHJ6qwxRjp9m2Pfvttd6hRBOyWRO3TimRkJA4'
         const url = `https://dev.withminta.com/generate-video/videos/findByCampaign?campaignId=${campaignId}&offset=${offset}&limit=6&applicationSource=web`
         // TODO
         const res: any = await request<Campaign>(url, { headers: { Authorization: mintaDevToken } })
-        console.log(res)
         dispatch({ type: ActionTypes.SetCampaignData, payload: { slug: path, campaign: res } })
+        setIsLoadingMore(false)
     }
 
-    let showMoreBtn = null
+    let buttonSection = null
     if (appState && appState.useCaseDataBySlug[path] && appState.useCaseDataBySlug[path].campaign.hasNextPage) {
-        showMoreBtn = <ShowMoreBtnWrapper>
+        buttonSection = <ButtonSectionWrapper>
             <ShowMoreBtn onClick={loadMore}>
                 Show More
             </ShowMoreBtn>
-        </ShowMoreBtnWrapper>
+        </ButtonSectionWrapper>
+    }
+
+    if (isLoadingMore) {
+        buttonSection = <ButtonSectionWrapper><Loader /></ButtonSectionWrapper>
     }
 
     return (
@@ -103,8 +111,8 @@ export const Gallery = () => {
             </GalleryHeader>
             <GalleryContainer>
                 {GalleryItemsToRender}
+                {buttonSection}
             </GalleryContainer>
-            {showMoreBtn}
         </Container>
     )
 }

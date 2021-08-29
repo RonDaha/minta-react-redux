@@ -7,7 +7,7 @@ import { Sidebar } from './components/Sidebar'
 import { Gallery } from './components/Gallery'
 import { Campaign, UseCase } from './types'
 import { AppState } from './Store/rootReducer'
-import { Loader } from './components/Loader'
+import { AppLoader } from './components/Loader'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 
@@ -26,7 +26,6 @@ const init = async (): Promise<InitialDataPayload> => {
         const campaignPromises: Promise<void>[] = useCasesResponse.map((useCase: UseCase) => {
             return getCampaignData(useCase.campaignId)
                 .then((campaign: Campaign) => {
-                    console.log(campaign)
                     if (!useCaseDataBySlug[useCase.slug]) {
                         useCaseDataBySlug[useCase.slug] = { useCase, campaign: {} }
                     }
@@ -72,7 +71,7 @@ function App() {
   return (
       <Router>
           <AppContainer>
-              {isLoading ? <Loader /> : null}
+              {isLoading ? <AppLoader /> : null}
               <Sidebar/>
               <Gallery/>
           </AppContainer>

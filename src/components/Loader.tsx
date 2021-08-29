@@ -1,7 +1,5 @@
 export const Loader = () => {
-
     return (
-        <div className="lds-wrapper">
             <div>
                 <div className="lds-ellipsis">
                     <div/>
@@ -10,6 +8,13 @@ export const Loader = () => {
                     <div/>
                 </div>
             </div>
+    )
+}
+
+export const AppLoader = () => {
+    return (
+        <div className="lds-wrapper">
+            <Loader/>
         </div>
     )
 }

@@ -1,0 +1,1363 @@
+{
+  "docs": [
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d0a3887ee9001fdb522f",
+            "font": "60db10e2a93a1d001ffcfc4d",
+            "name": "Fjalla One",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/FjallaOne-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": false,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": true
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/xv101d017h2e21as2735bg1whn2to1u2u2gvj1x2fdq1.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/xv101d017h2e21as2735bg1whn2to1u2u2gvj1x2fdq1.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/xv101d017h2e21as2735bg1whn2to1u2u2gvj1x2fdq1_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/xv101d017h2e21as2735bg1whn2to1u2u2gvj1x2fdq1_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 11.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor1",
+                      "brandingColor11"
+                    ]
+                  },
+                  {
+                    "placeholders": [
+                      "brandingColor2",
+                      "brandingColor22",
+                      "bg1"
+                    ]
+                  }
+                ]
+              },
+              "specialString": [
+                {
+                  "isCaps": true,
+                  "isEditable": true,
+                  "maxLength": 10,
+                  "sentence": [
+                    "NEW IN"
+                  ],
+                  "sentenceFallback": "JUST LANDED",
+                  "placeholders": [
+                    [
+                      {
+                        "key": "new in",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "NEW IN"
+                  ],
+                  "initialInjectedValue": [
+                    "NEW IN"
+                  ]
+                }
+              ],
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/PatuaOne-Regular.ttf",
+                  "placeholders": [
+                    "new in"
+                  ],
+                  "defaultFontId": "60db1205a93a1d001ffcfc5a"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "product1Blur",
+                    "product1"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/51c215f3-36eb-44a5-a9b7-74c0a771623a_1_5f46e175-d922-4fd6-9a98-608ddbb1358d_2000x2000.jpg?v=1608560761"
+                },
+                {
+                  "placeholders": [
+                    "product2Blur",
+                    "product2"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-maternity-bag-backpack-Collection_96a8b3be-54b1-44c6-9d53-0a13574712b2_2000x2000.gif.jpg?v=1613479613"
+                },
+                {
+                  "placeholders": [
+                    "product3Blur",
+                    "product3"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-Maternity-Bag-Backpack-Front_223f8ed6-7beb-4c19-84c0-c30a8d5d85f7_2000x2000.gif.jpg?v=1613479613"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 8
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "Copy of Gucci Shoes - 5",
+          "id": "gid://shopify/Product/4845045645346",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "111",
+          "maximumPrice": "111",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/51c215f3-36eb-44a5-a9b7-74c0a771623a_1_5f46e175-d922-4fd6-9a98-608ddbb1358d_2000x2000.jpg?v=1608560761",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-maternity-bag-backpack-Collection_96a8b3be-54b1-44c6-9d53-0a13574712b2_2000x2000.gif.jpg?v=1613479613",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-Maternity-Bag-Backpack-Front_223f8ed6-7beb-4c19-84c0-c30a8d5d85f7_2000x2000.gif.jpg?v=1613479613"
+          ],
+          "productUrl": "",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2020-12-21T14:25:58Z",
+          "minimumPriceWithCurrency": "₪111",
+          "maximumPriceWithCurrency": "₪111"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4845045645346"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d0a3887ee9001fdb522e",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d0a081c4a3001edadc77",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/Dance-To-The -Rhythm.mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "newarrival30",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5e80a67fa39b65001fafd0f4",
+      "mtmSource": "explore",
+      "template": "609128d4375cca001e344857",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T10:57:39.351Z",
+      "updatedAt": "2021-08-24T10:57:44.547Z",
+      "__v": 1,
+      "isPurchased": true,
+      "score": null
+    },
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d0a3887ee9001fdb5231",
+            "font": "60db10e2a93a1d001ffcfc4d",
+            "name": "Fjalla One",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/FjallaOne-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": false,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": true
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/34196oh1or1mc2ff2w1sw3k21xbax181l111of42hu.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/34196oh1or1mc2ff2w1sw3k21xbax181l111of42hu.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/34196oh1or1mc2ff2w1sw3k21xbax181l111of42hu_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/34196oh1or1mc2ff2w1sw3k21xbax181l111of42hu_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 4.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "specialString": [
+                {
+                  "isCaps": true,
+                  "isEditable": true,
+                  "maxLength": 11,
+                  "sentence": [
+                    "new arrival"
+                  ],
+                  "placeholders": [
+                    [
+                      {
+                        "key": "text1",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "text2",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "new arrival"
+                  ],
+                  "initialInjectedValue": [
+                    "new arrival"
+                  ]
+                }
+              ],
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor33",
+                      "brandingColor33",
+                      "brandingColor3"
+                    ]
+                  },
+                  {
+                    "placeholders": [
+                      "brandingColor2",
+                      "brandingColor1"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/AbrilFatface-Regular.ttf",
+                  "placeholders": [
+                    "text1",
+                    "text2"
+                  ],
+                  "defaultFontId": "60db104aa93a1d001ffcfc45"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "productImageSquare11",
+                    "productImageSquare1"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/f7b8e740394225f9cfc722c64ddd224f_7cd9524a-03d2-4c7c-83c7-42008b433a2f_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare22",
+                    "productImageSquare2"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/9169785_fpx_48d1e646-0991-4c50-bb78-77800e162f6a_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare33",
+                    "productImageSquare3"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1284954_1_zoom_50fd3918-5ba5-403c-978a-46c598414e58_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare44",
+                    "productImageSquare4"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1284954_1_zoom_50fd3918-5ba5-403c-978a-46c598414e58_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare55",
+                    "productImageSquare5"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/9169785_fpx_48d1e646-0991-4c50-bb78-77800e162f6a_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare66",
+                    "productImageSquare6"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1284954_1_zoom_50fd3918-5ba5-403c-978a-46c598414e58_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare77",
+                    "productImageSquare7"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1284954_1_zoom_50fd3918-5ba5-403c-978a-46c598414e58_2000x2000.jpg?v=1607008949"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 1
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "Copy of Gucci Coat III",
+          "id": "gid://shopify/Product/4536647090210",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "45",
+          "maximumPrice": "45",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/f7b8e740394225f9cfc722c64ddd224f_7cd9524a-03d2-4c7c-83c7-42008b433a2f_2000x2000.jpg?v=1607008949",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/9169785_fpx_48d1e646-0991-4c50-bb78-77800e162f6a_2000x2000.jpg?v=1607008949",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1284954_1_zoom_50fd3918-5ba5-403c-978a-46c598414e58_2000x2000.jpg?v=1607008949"
+          ],
+          "productUrl": "ran-3.myshopify.com/products/copy-of-gucci-coat-iii",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2020-05-31T21:05:26Z",
+          "minimumPriceWithCurrency": "₪45",
+          "maximumPriceWithCurrency": "₪45"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4536647090210"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d0a3887ee9001fdb5230",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d0a081c4a3001edadc77",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/general-track-4.mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "newarrival1",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5e80a67fa39b65001fafd0f4",
+      "mtmSource": "explore",
+      "template": "5eb453b4c3b233001e45d927",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T10:57:39.452Z",
+      "updatedAt": "2021-08-24T10:57:44.148Z",
+      "__v": 1,
+      "isPurchased": true,
+      "score": null
+    },
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d0a3887ee9001fdb5233",
+            "font": "60db10e2a93a1d001ffcfc4d",
+            "name": "Fjalla One",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/FjallaOne-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": false,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": true
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/td1wq0tladbh1m2d30d8nf2aj1g3kg21qd23271ig2j21.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/td1wq0tladbh1m2d30d8nf2aj1g3kg21qd23271ig2j21.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/td1wq0tladbh1m2d30d8nf2aj1g3kg21qd23271ig2j21_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/td1wq0tladbh1m2d30d8nf2aj1g3kg21qd23271ig2j21_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 5.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "specialString": [
+                {
+                  "isCaps": false,
+                  "isEditable": true,
+                  "maxLength": 20,
+                  "sentence": [
+                    "New arrival"
+                  ],
+                  "placeholders": [
+                    [
+                      {
+                        "key": "text1",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "New arrival"
+                  ],
+                  "initialInjectedValue": [
+                    "New arrival"
+                  ]
+                }
+              ],
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor1",
+                      "brandingColor2"
+                    ]
+                  },
+                  {
+                    "placeholders": [
+                      "brandingColor22"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/AbrilFatface-Regular.ttf",
+                  "placeholders": [
+                    "text1"
+                  ],
+                  "defaultFontId": "60db104aa93a1d001ffcfc45"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "productImagesquare1"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1361026_1_zoom_2000x2000.jpg?v=1601378404"
+                },
+                {
+                  "placeholders": [
+                    "productImagesquare2"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1361026_1_zoom_2000x2000.jpg?v=1601378404"
+                },
+                {
+                  "placeholders": [
+                    "productImagesquare3"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1361026_1_zoom_2000x2000.jpg?v=1601378404"
+                },
+                {
+                  "placeholders": [
+                    "productImagesquare4"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1361026_1_zoom_2000x2000.jpg?v=1601378404"
+                },
+                {
+                  "placeholders": [
+                    "productImagesquare5"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1361026_1_zoom_2000x2000.jpg?v=1601378404"
+                },
+                {
+                  "placeholders": [
+                    "productImagesquare6"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1361026_1_zoom_2000x2000.jpg?v=1601378404"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 2
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "Gucci Shoes II",
+          "id": "gid://shopify/Product/4530346491938",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "15",
+          "maximumPrice": "15",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1361026_1_zoom_2000x2000.jpg?v=1601378404"
+          ],
+          "productUrl": "",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2020-05-25T08:32:39Z",
+          "minimumPriceWithCurrency": "₪15",
+          "maximumPriceWithCurrency": "₪15"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4530346491938"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d0a3887ee9001fdb5232",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d0a081c4a3001edadc77",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/we-got-rhythm.mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "newarrival10",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5e80a67fa39b65001fafd0f4",
+      "mtmSource": "explore",
+      "template": "5ebbae97d73b630029c47003",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T10:57:39.645Z",
+      "updatedAt": "2021-08-24T10:57:44.246Z",
+      "__v": 1,
+      "isPurchased": true,
+      "score": null
+    },
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d0a31718da001ed596d5",
+            "font": "60db10e2a93a1d001ffcfc4d",
+            "name": "Fjalla One",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/FjallaOne-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": false,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": true
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/u23i3g1920j29uitg2jicfa2ny30s732jrnfhatg.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/u23i3g1920j29uitg2jicfa2ny30s732jrnfhatg.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/u23i3g1920j29uitg2jicfa2ny30s732jrnfhatg_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/u23i3g1920j29uitg2jicfa2ny30s732jrnfhatg_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 4.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "specialString": [
+                {
+                  "isCaps": true,
+                  "isEditable": true,
+                  "maxLength": 10,
+                  "sentence": [
+                    "new in"
+                  ],
+                  "placeholders": [
+                    [
+                      {
+                        "key": "new in 3",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new in 2",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new in",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new in 4",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new in 5",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new in 7",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new in 8",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new in 6",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new in 9",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new in 10",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "new in 11",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "new in"
+                  ],
+                  "initialInjectedValue": [
+                    "new in"
+                  ]
+                }
+              ],
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor1",
+                      "brandingColor3",
+                      "brandingColor11",
+                      "brandingColor111",
+                      "brandingColor1111",
+                      "brandingColor11111",
+                      "brandingColor111111",
+                      "brandingColor1111111",
+                      "brandingColor11111111"
+                    ]
+                  },
+                  {
+                    "placeholders": [
+                      "brandingColor2",
+                      "brandingColor22",
+                      "brandingColor222",
+                      "brandingColor2222",
+                      "brandingColor22222",
+                      "brandingColor222222"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/Anton-Regular.ttf",
+                  "placeholders": [
+                    "new in 3",
+                    "new in 4",
+                    "new in 5",
+                    "new in 6",
+                    "new in 7",
+                    "new in 8",
+                    "new in 9",
+                    "new in 10",
+                    "new in 11",
+                    "new",
+                    "new in"
+                  ],
+                  "defaultFontId": "60db1073a93a1d001ffcfc47"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "product1Blur",
+                    "product1"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/51c215f3-36eb-44a5-a9b7-74c0a771623a_1_5a0d0e5e-30c2-4ecf-9263-9f0de06af2cc_2000x2000.jpg?v=1609688601"
+                },
+                {
+                  "placeholders": [
+                    "product2Blur",
+                    "product2",
+                    "product22",
+                    "product22Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-maternity-bag-backpack-Collection_9bb28eb2-818b-49ae-ae83-7c475eebaa5b_2000x2000.gif.jpg?v=1609688601"
+                },
+                {
+                  "placeholders": [
+                    "product3Blur",
+                    "product3"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-Maternity-Bag-Backpack-Front_1e78542a-8a9b-429b-94a0-8c41bdc0a558_2000x2000.gif.jpg?v=1609688601"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 1
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "Brown bug 2",
+          "id": "gid://shopify/Product/4848179216418",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "47",
+          "maximumPrice": "47",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/51c215f3-36eb-44a5-a9b7-74c0a771623a_1_5a0d0e5e-30c2-4ecf-9263-9f0de06af2cc_2000x2000.jpg?v=1609688601",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-maternity-bag-backpack-Collection_9bb28eb2-818b-49ae-ae83-7c475eebaa5b_2000x2000.gif.jpg?v=1609688601",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-Maternity-Bag-Backpack-Front_1e78542a-8a9b-429b-94a0-8c41bdc0a558_2000x2000.gif.jpg?v=1609688601",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-Maternity-Bag-Backpack-Front_cc8dd253-6ea1-4490-829e-abdbd09f960b_2000x2000.gif.jpg?v=1609688601",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-maternity-bag-backpack-Collection_d1c9a27b-e4ed-4f72-a34d-6033b621f7f1_2000x2000.gif.jpg?v=1609688601",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-maternity-bag-backpack-Collection_d8806ed3-e8ee-4fc4-b292-b298663e956c_2000x2000.gif.jpg?v=1609688623"
+          ],
+          "collectionNames": [
+            "shoes"
+          ],
+          "firstCollectionName": "shoes",
+          "collectionIds": [
+            null
+          ],
+          "productUrl": "",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2021-01-03T15:43:16Z",
+          "minimumPriceWithCurrency": "₪47",
+          "maximumPriceWithCurrency": "₪47"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4848179216418"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d0a31718da001ed596d4",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d0a081c4a3001edadc77",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/Christmas Spirit.mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "newarrival31",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5e80a67fa39b65001fafd0f4",
+      "mtmSource": "explore",
+      "template": "609128e4375cca001e344858",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T10:57:39.961Z",
+      "updatedAt": "2021-08-24T10:57:44.250Z",
+      "__v": 1,
+      "score": null,
+      "isPurchased": true
+    },
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d0a41718da001ed596d7",
+            "font": "60db10e2a93a1d001ffcfc4d",
+            "name": "Fjalla One",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/FjallaOne-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": false,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": true
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/eiz3n2ja1111t1h1nte762wby3i3f1x112f17i.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/eiz3n2ja1111t1h1nte762wby3i3f1x112f17i.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/eiz3n2ja1111t1h1nte762wby3i3f1x112f17i_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/eiz3n2ja1111t1h1nte762wby3i3f1x112f17i_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 5.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "specialString": [
+                {
+                  "isCaps": true,
+                  "isEditable": true,
+                  "maxLength": 20,
+                  "sentence": [
+                    "New arrival"
+                  ],
+                  "placeholders": [
+                    [
+                      {
+                        "key": "text1",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "New arrival"
+                  ],
+                  "initialInjectedValue": [
+                    "New arrival"
+                  ]
+                }
+              ],
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor1"
+                    ]
+                  },
+                  {
+                    "placeholders": [
+                      "brandingColor2",
+                      "brandingColor22",
+                      "brandingColor11"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/CaveatBrush-Regular.ttf",
+                  "placeholders": [
+                    "text1"
+                  ],
+                  "defaultFontId": "60db10b4a93a1d001ffcfc4a"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "productImagevertical1"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/61jp2GvbxwL._AC_UL1500_2000x2000.jpg?v=1613481420"
+                },
+                {
+                  "placeholders": [
+                    "productImagevertical2"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/61jp2GvbxwL._AC_UL1500_2000x2000.jpg?v=1613481420"
+                },
+                {
+                  "placeholders": [
+                    "productImagevertical3"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/61jp2GvbxwL._AC_UL1500_2000x2000.jpg?v=1613481420"
+                },
+                {
+                  "placeholders": [
+                    "productImagevertical4"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/61jp2GvbxwL._AC_UL1500_2000x2000.jpg?v=1613481420"
+                },
+                {
+                  "placeholders": [
+                    "productImagevertical5"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/61jp2GvbxwL._AC_UL1500_2000x2000.jpg?v=1613481420"
+                },
+                {
+                  "placeholders": [
+                    "productImagevertical6"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/61jp2GvbxwL._AC_UL1500_2000x2000.jpg?v=1613481420"
+                },
+                {
+                  "placeholders": [
+                    "productImagevertical7"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/61jp2GvbxwL._AC_UL1500_2000x2000.jpg?v=1613481420"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 2
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "sweat shirt 👚",
+          "id": "gid://shopify/Product/4855575642146",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "35",
+          "maximumPrice": "35",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/61jp2GvbxwL._AC_UL1500_2000x2000.jpg?v=1613481420"
+          ],
+          "productUrl": "ran-3.myshopify.com/products/sweat-shirt-%F0%9F%91%9A",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2021-02-02T05:47:26Z",
+          "minimumPriceWithCurrency": "₪35",
+          "maximumPriceWithCurrency": "₪35"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4855575642146"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d0a41718da001ed596d6",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d0a081c4a3001edadc77",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/Christmas Tells .mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "newarrival9",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5e80a67fa39b65001fafd0f4",
+      "mtmSource": "explore",
+      "template": "5ebbae03d73b630029c47002",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T10:57:40.068Z",
+      "updatedAt": "2021-08-24T10:57:44.543Z",
+      "__v": 1,
+      "isPurchased": true,
+      "score": null
+    },
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d0a41718da001ed596d9",
+            "font": "60db10e2a93a1d001ffcfc4d",
+            "name": "Fjalla One",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/FjallaOne-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": false,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": true
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/9opmy292hyry32ho32772ed1e1e2d03212o1tr.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/9opmy292hyry32ho32772ed1e1e2d03212o1tr.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/9opmy292hyry32ho32772ed1e1e2d03212o1tr_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/9opmy292hyry32ho32772ed1e1e2d03212o1tr_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 6.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "specialString": [
+                {
+                  "isCaps": true,
+                  "isEditable": true,
+                  "maxLength": 20,
+                  "duplicationCount": 10,
+                  "sentence": [
+                    "new in"
+                  ],
+                  "placeholders": [
+                    [
+                      {
+                        "key": "sale2",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "sale1",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "new in"
+                  ],
+                  "initialInjectedValue": [
+                    "new in"
+                  ]
+                }
+              ],
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor1"
+                    ]
+                  },
+                  {
+                    "placeholders": [
+                      "brandingColor2",
+                      "brandingColor22"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/Oswald-Regular.ttf",
+                  "placeholders": [
+                    "sale1",
+                    "sale2"
+                  ],
+                  "defaultFontId": "60db11f4a93a1d001ffcfc59"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "product1Blur",
+                    "product1"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/51c215f3-36eb-44a5-a9b7-74c0a771623a_1_c2d704a5-bf94-452c-a8cb-372c129dd361_2000x2000.jpg?v=1608560940"
+                },
+                {
+                  "placeholders": [
+                    "product2Blur",
+                    "product2"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-maternity-bag-backpack-Collection_5651fc39-355d-4976-b5a2-3a26a8c1a063_2000x2000.gif.jpg?v=1608560940"
+                },
+                {
+                  "placeholders": [
+                    "product3Blur",
+                    "product3"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-Maternity-Bag-Backpack-Front_e2ecc914-e781-4a05-88f7-d44d548bdb14_2000x2000.gif.jpg?v=1608560940"
+                },
+                {
+                  "placeholders": [
+                    "product4Blur",
+                    "product4"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-Maternity-Bag-Backpack-Front_8c553f73-ebe0-4f29-8168-0b25ea2dc9f9_2000x2000.gif.jpg?v=1608560940"
+                },
+                {
+                  "placeholders": [
+                    "product5Blur",
+                    "product5"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/51c215f3-36eb-44a5-a9b7-74c0a771623a_1_c2d704a5-bf94-452c-a8cb-372c129dd361_2000x2000.jpg?v=1608560940"
+                },
+                {
+                  "placeholders": [
+                    "product6blur",
+                    "product6"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-Maternity-Bag-Backpack-Front_e2ecc914-e781-4a05-88f7-d44d548bdb14_2000x2000.gif.jpg?v=1608560940"
+                },
+                {
+                  "placeholders": [
+                    "product7Blur",
+                    "product7"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/51c215f3-36eb-44a5-a9b7-74c0a771623a_1_c2d704a5-bf94-452c-a8cb-372c129dd361_2000x2000.jpg?v=1608560940"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 3
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "Brown bug - 2",
+          "id": "gid://shopify/Product/4845045743650",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "74",
+          "maximumPrice": "74",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/51c215f3-36eb-44a5-a9b7-74c0a771623a_1_c2d704a5-bf94-452c-a8cb-372c129dd361_2000x2000.jpg?v=1608560940",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-maternity-bag-backpack-Collection_5651fc39-355d-4976-b5a2-3a26a8c1a063_2000x2000.gif.jpg?v=1608560940",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-Maternity-Bag-Backpack-Front_e2ecc914-e781-4a05-88f7-d44d548bdb14_2000x2000.gif.jpg?v=1608560940",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Tan-Maternity-Bag-Backpack-Front_8c553f73-ebe0-4f29-8168-0b25ea2dc9f9_2000x2000.gif.jpg?v=1608560940"
+          ],
+          "collectionNames": [
+            "shoes"
+          ],
+          "firstCollectionName": "shoes",
+          "collectionIds": [
+            null
+          ],
+          "productUrl": "",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2020-12-21T14:28:56Z",
+          "minimumPriceWithCurrency": "₪74",
+          "maximumPriceWithCurrency": "₪74"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4845045743650"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d0a41718da001ed596d8",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d0a081c4a3001edadc77",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/Christmas Tells .mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "newarrival21",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5e80a67fa39b65001fafd0f4",
+      "mtmSource": "explore",
+      "template": "5f59fdbf5e252f00209373e7",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T10:57:40.168Z",
+      "updatedAt": "2021-08-24T10:57:44.344Z",
+      "__v": 1,
+      "isPurchased": true,
+      "score": null
+    }
+  ],
+  "totalDocs": 24,
+  "offset": 0,
+  "limit": 6,
+  "totalPages": 4,
+  "page": 1,
+  "pagingCounter": 1,
+  "hasPrevPage": false,
+  "hasNextPage": true,
+  "prevPage": null,
+  "nextPage": 2
+}

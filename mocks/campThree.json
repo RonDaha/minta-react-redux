@@ -1,0 +1,1399 @@
+{
+  "docs": [
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d14f887ee9001fdb5252",
+            "font": "60db10e2a93a1d001ffcfc4d",
+            "name": "Fjalla One",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/FjallaOne-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": false,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": true
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/qfz2h0dg23jfw2gz1w61001l24u34hj8122f2cu2r.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/qfz2h0dg23jfw2gz1w61001l24u34hj8122f2cu2r.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/qfz2h0dg23jfw2gz1w61001l24u34hj8122f2cu2r_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/qfz2h0dg23jfw2gz1w61001l24u34hj8122f2cu2r_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 4.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor1"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/AbrilFatface-Regular.ttf",
+                  "placeholders": [],
+                  "defaultFontId": "60db104aa93a1d001ffcfc45"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "product1Blur",
+                    "product1"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/623168_ZAD2O_9152_001_100_0000_Light-Woven-effect-G-print-cotton-bowling-shirt_bd0d1e60-6302-46c2-901d-29d0884bcdd8_2000x2000.jpg?v=1609431145"
+                },
+                {
+                  "placeholders": [
+                    "product2",
+                    "product2Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/623168_ZAD2O_9152_001_100_0000_Light-Woven-effect-G-print-cotton-bowling-shirt_bd0d1e60-6302-46c2-901d-29d0884bcdd8_2000x2000.jpg?v=1609431145"
+                },
+                {
+                  "placeholders": [
+                    "product3",
+                    "product3Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/623168_ZAD2O_9152_001_100_0000_Light-Woven-effect-G-print-cotton-bowling-shirt_bd0d1e60-6302-46c2-901d-29d0884bcdd8_2000x2000.jpg?v=1609431145"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 1
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "NEW --- Gucci Shirt",
+          "id": "gid://shopify/Product/4847817523234",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "65",
+          "maximumPrice": "65",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/623168_ZAD2O_9152_001_100_0000_Light-Woven-effect-G-print-cotton-bowling-shirt_bd0d1e60-6302-46c2-901d-29d0884bcdd8_2000x2000.jpg?v=1609431145"
+          ],
+          "productUrl": "ran-3.myshopify.com/products/new-gucci-shirt",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2020-12-31T16:12:23Z",
+          "minimumPriceWithCurrency": "₪65",
+          "maximumPriceWithCurrency": "₪65"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4847817523234"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d14f887ee9001fdb5251",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d14e81c4a3001edadc79",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/general-track-9.mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "facebookpowerup10",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5f0c49290cc837001e8b1e3e",
+      "mtmSource": "explore",
+      "template": "604f67b61bf094001fdcc382",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T11:00:31.820Z",
+      "updatedAt": "2021-08-24T11:00:36.146Z",
+      "__v": 1,
+      "score": null,
+      "isPurchased": true
+    },
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d14f1718da001ed596f9",
+            "font": "60db1291a93a1d001ffcfc61",
+            "name": "Roboto Condensed Bold",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/RobotoCondensed-Bold.ttf"
+          }
+        ],
+        "isFallbackFonts": false,
+        "isDefaultFonts": true,
+        "isBrandedFontsUsed": false
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/hw22oaq91f2m2py2kf617xgmm1r1j351u22y12m193i34.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/hw22oaq91f2m2py2kf617xgmm1r1j351u22y12m193i34.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/hw22oaq91f2m2py2kf617xgmm1r1j351u22y12m193i34_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/hw22oaq91f2m2py2kf617xgmm1r1j351u22y12m193i34_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 6.16,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "specialString": [
+                {
+                  "isCaps": false,
+                  "isEditable": true,
+                  "maxLength": 15,
+                  "sentence": [
+                    "From {minimumPriceWithCurrency}"
+                  ],
+                  "mapObj": {
+                    "minimumPriceWithCurrency": "₪45"
+                  },
+                  "placeholders": [
+                    [
+                      {
+                        "key": "Best Sellers",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "From ₪45"
+                  ],
+                  "initialInjectedValue": [
+                    "From ₪45"
+                  ]
+                }
+              ],
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor1",
+                      "brandingColor11"
+                    ]
+                  },
+                  {
+                    "placeholders": [
+                      "brandingColor2",
+                      "brandingColor22"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/RobotoCondensed-Bold.ttf",
+                  "placeholders": [
+                    "Best Sellers"
+                  ],
+                  "defaultFontId": "60db1291a93a1d001ffcfc61"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "product1",
+                    "product1Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/f7b8e740394225f9cfc722c64ddd224f_7cd9524a-03d2-4c7c-83c7-42008b433a2f_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "product2",
+                    "product2Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/9169785_fpx_48d1e646-0991-4c50-bb78-77800e162f6a_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "product3",
+                    "product3Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1284954_1_zoom_50fd3918-5ba5-403c-978a-46c598414e58_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "product4",
+                    "product4Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1284954_1_zoom_50fd3918-5ba5-403c-978a-46c598414e58_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "product5",
+                    "product5Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/9169785_fpx_48d1e646-0991-4c50-bb78-77800e162f6a_2000x2000.jpg?v=1607008949"
+                },
+                {
+                  "placeholders": [
+                    "product6",
+                    "product6Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1284954_1_zoom_50fd3918-5ba5-403c-978a-46c598414e58_2000x2000.jpg?v=1607008949"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 3.12
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "Copy of Gucci Coat III",
+          "id": "gid://shopify/Product/4536647090210",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "45",
+          "maximumPrice": "45",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/f7b8e740394225f9cfc722c64ddd224f_7cd9524a-03d2-4c7c-83c7-42008b433a2f_2000x2000.jpg?v=1607008949",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/9169785_fpx_48d1e646-0991-4c50-bb78-77800e162f6a_2000x2000.jpg?v=1607008949",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1284954_1_zoom_50fd3918-5ba5-403c-978a-46c598414e58_2000x2000.jpg?v=1607008949"
+          ],
+          "productUrl": "ran-3.myshopify.com/products/copy-of-gucci-coat-iii",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2020-05-31T21:05:26Z",
+          "minimumPriceWithCurrency": "₪45",
+          "maximumPriceWithCurrency": "₪45"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4536647090210"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d14f1718da001ed596f8",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d14e81c4a3001edadc79",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/underground-magic.mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "facebookpowerup14",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5f0c49290cc837001e8b1e3e",
+      "mtmSource": "explore",
+      "template": "604f83c71bf094001fdcc386",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T11:00:31.835Z",
+      "updatedAt": "2021-08-24T11:00:36.243Z",
+      "__v": 1,
+      "score": null,
+      "isPurchased": true
+    },
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d14f1718da001ed596fb",
+            "font": "611a1351fddcc1001e843cdc",
+            "name": "Rubik",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/Rubik-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": true,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": false
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/ab1zvd19bv2p1lzf361sctfc2e1e5b251901ms.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/ab1zvd19bv2p1lzf361sctfc2e1e5b251901ms.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/ab1zvd19bv2p1lzf361sctfc2e1e5b251901ms_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/ab1zvd19bv2p1lzf361sctfc2e1e5b251901ms_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 4.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "specialString": [
+                {
+                  "isCaps": true,
+                  "isEditable": true,
+                  "maxLength": 11,
+                  "sentence": [
+                    "From {minimumPriceWithCurrency}"
+                  ],
+                  "mapObj": {
+                    "minimumPriceWithCurrency": "₪47"
+                  },
+                  "placeholders": [
+                    [
+                      {
+                        "key": "text1",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "From ₪47"
+                  ],
+                  "initialInjectedValue": [
+                    "From ₪47"
+                  ]
+                }
+              ],
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor3",
+                      "brandingColor33"
+                    ]
+                  },
+                  {
+                    "placeholders": [
+                      "brandingColor2"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/Montserrat-Regular.ttf",
+                  "placeholders": [
+                    "text1"
+                  ],
+                  "defaultFontId": "60db117ca93a1d001ffcfc54"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "productImageSquare11",
+                    "productImageSquare1"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/51c215f3-36eb-44a5-a9b7-74c0a771623a_1_5c4c0fbb-d257-43d2-a814-4143361ca021_2000x2000.jpg?v=1615817063"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare22",
+                    "productImageSquare2"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/IMG_20210306_153157_2000x2000.jpg?v=1625744259"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare33",
+                    "productImageSquare3"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/IMG_20210306_153210_2000x2000.jpg?v=1625744259"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare44",
+                    "productImageSquare4"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/IMG_20210306_153223_2000x2000.jpg?v=1625744259"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare55",
+                    "productImageSquare5"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/57121_main_12170276-efb6-4433-8da1-e88a359b2c63_2000x2000.jpg?v=1625744267"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare66",
+                    "productImageSquare6"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/diamond-letter-initial-k-pendant-necklace-in-rose-gold-5624rb_159a5ed8-e9b4-4cb4-b692-b93fb2d3279e_2000x2000.jpg?v=1625744267"
+                },
+                {
+                  "placeholders": [
+                    "productImageSquare77",
+                    "productImageSquare7"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/stephen_webster_love_me_love_me_not-20_1_3c26aaab-d1c1-4744-b7ce-7aa02c59ca88_2000x2000.jpg?v=1625744267"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 1
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "Brown bug",
+          "id": "gid://shopify/Product/4845044695074",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "47",
+          "maximumPrice": "47",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/51c215f3-36eb-44a5-a9b7-74c0a771623a_1_5c4c0fbb-d257-43d2-a814-4143361ca021_2000x2000.jpg?v=1615817063",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/IMG_20210306_153157_2000x2000.jpg?v=1625744259",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/IMG_20210306_153210_2000x2000.jpg?v=1625744259",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/IMG_20210306_153223_2000x2000.jpg?v=1625744259",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/57121_main_12170276-efb6-4433-8da1-e88a359b2c63_2000x2000.jpg?v=1625744267",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/diamond-letter-initial-k-pendant-necklace-in-rose-gold-5624rb_159a5ed8-e9b4-4cb4-b692-b93fb2d3279e_2000x2000.jpg?v=1625744267",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/stephen_webster_love_me_love_me_not-20_1_3c26aaab-d1c1-4744-b7ce-7aa02c59ca88_2000x2000.jpg?v=1625744267",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/minta-logo_db060953-3f9f-4e0f-9f9f-707d48a6cb30_2000x2000.png.jpg?v=1625744296",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/nasa_ac6e0659-2561-4aff-93f4-d029d73d9a38_2000x2000.jpg?v=1625744296",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/nilly-logo_fbdf73cd-18e5-44d7-a38a-7ff9df45ceb6_2000x2000.jpg?v=1625744296"
+          ],
+          "collectionNames": [
+            "frontpage",
+            "shoes"
+          ],
+          "firstCollectionName": "frontpage",
+          "collectionIds": [
+            null,
+            null
+          ],
+          "productUrl": "ran-3.myshopify.com/products/gucci-shoes-4",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2020-12-21T14:00:21Z",
+          "minimumPriceWithCurrency": "₪47",
+          "maximumPriceWithCurrency": "₪47"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4845044695074"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d14f1718da001ed596fa",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d14e81c4a3001edadc79",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/general-track-9.mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "facebookpowerup15",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5f0c49290cc837001e8b1e3e",
+      "mtmSource": "explore",
+      "template": "604f85751bf094001fdcc387",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T11:00:31.867Z",
+      "updatedAt": "2021-08-24T11:00:36.343Z",
+      "__v": 1,
+      "score": null,
+      "isPurchased": true
+    },
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d14f887ee9001fdb5254",
+            "font": "611a1351fddcc1001e843cdc",
+            "name": "Rubik",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/Rubik-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": true,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": false
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/ot1p25g5lr3cz67bsi82tqc02uxlpg142juqm27.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/ot1p25g5lr3cz67bsi82tqc02uxlpg142juqm27.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/ot1p25g5lr3cz67bsi82tqc02uxlpg142juqm27_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/ot1p25g5lr3cz67bsi82tqc02uxlpg142juqm27_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 9.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "specialString": [
+                {
+                  "isCaps": true,
+                  "isEditable": true,
+                  "maxLength": 10,
+                  "sentence": [
+                    "{minimumPriceWithCurrency}"
+                  ],
+                  "mapObj": {
+                    "minimumPriceWithCurrency": "₪150"
+                  },
+                  "placeholders": [
+                    [
+                      {
+                        "key": "xxx off2",
+                        "is_hidden": true
+                      },
+                      {
+                        "key": "$1223",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "₪150"
+                  ],
+                  "initialInjectedValue": [
+                    "₪150"
+                  ]
+                },
+                {
+                  "isCaps": true,
+                  "isEditable": false,
+                  "maxLength": 10,
+                  "sentence": [
+                    "ONLY"
+                  ],
+                  "mapObj": {
+                    "minimumPriceWithCurrency": "₪150"
+                  },
+                  "placeholders": [
+                    [
+                      {
+                        "key": "black1",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "ONLY"
+                  ],
+                  "initialInjectedValue": [
+                    "ONLY"
+                  ]
+                },
+                {
+                  "isCaps": true,
+                  "isEditable": false,
+                  "maxLength": 10,
+                  "sentence": [
+                    "FROM"
+                  ],
+                  "mapObj": {
+                    "minimumPriceWithCurrency": "₪150"
+                  },
+                  "placeholders": [
+                    [
+                      {
+                        "key": "friday1",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "FROM"
+                  ],
+                  "initialInjectedValue": [
+                    "FROM"
+                  ]
+                },
+                {
+                  "isCaps": true,
+                  "isEditable": false,
+                  "maxLength": 10,
+                  "sentence": [
+                    "LAST\nCHANCE"
+                  ],
+                  "mapObj": {
+                    "minimumPriceWithCurrency": "₪150"
+                  },
+                  "placeholders": [
+                    [
+                      {
+                        "key": "black friday2",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "LAST\nCHANCE"
+                  ],
+                  "initialInjectedValue": [
+                    "LAST\nCHANCE"
+                  ]
+                }
+              ],
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor1",
+                      "brandingColor11",
+                      "brandingColor111",
+                      "brandingColor11111",
+                      "brandingColor111111",
+                      "brandingColor1111"
+                    ]
+                  },
+                  {
+                    "placeholders": [
+                      "brandingColor2",
+                      "brandingColor22",
+                      "brandingColor222",
+                      "brandingColor2222",
+                      "brandingColor22222"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/Raleway-Bold.ttf",
+                  "placeholders": [
+                    "xxx off2",
+                    "$1223",
+                    "black1",
+                    "friday1",
+                    "black friday2"
+                  ],
+                  "defaultFontId": "60db1254a93a1d001ffcfc5e"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "product1",
+                    "product1Blur",
+                    "product11",
+                    "product11Blur",
+                    "product111",
+                    "product111Blur",
+                    "product1111",
+                    "product1111Blur",
+                    "product11111",
+                    "product11111blur",
+                    "product111111",
+                    "product111111Blur",
+                    "product1111111",
+                    "product1111111Blur",
+                    "product11111111",
+                    "product11111111Blur",
+                    "product111111111",
+                    "product111111111Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/9169785_fpx_8802796b-2f5c-4cfd-a6d3-2be490a5303a_2000x2000.jpg?v=1625743939"
+                },
+                {
+                  "placeholders": [
+                    "product2",
+                    "product2Blur",
+                    "product22",
+                    "product22Blur",
+                    "product222",
+                    "product222Blur",
+                    "product2222",
+                    "product2222Blur",
+                    "product22222",
+                    "product22222Blur",
+                    "product222222",
+                    "product222222Blur",
+                    "product2222222",
+                    "product2222222Blur",
+                    "product22222222",
+                    "product22222222Blur",
+                    "product222222222",
+                    "product222222222Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/E4260_2_32a49f0f-b860-488b-b51f-abac313505df_2000x2000.jpg?v=1627888589"
+                },
+                {
+                  "placeholders": [
+                    "product3",
+                    "product3Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1599103357101_2000x2000.png.jpg?v=1627888589"
+                },
+                {
+                  "placeholders": [
+                    "product4",
+                    "product4Blur",
+                    "product44",
+                    "product44Blur"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1599110515339_2000x2000.png.jpg?v=1627888589"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 6
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "Black Adidas T",
+          "id": "gid://shopify/Product/6564275650594",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "150",
+          "maximumPrice": "150",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/9169785_fpx_8802796b-2f5c-4cfd-a6d3-2be490a5303a_2000x2000.jpg?v=1625743939",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/E4260_2_32a49f0f-b860-488b-b51f-abac313505df_2000x2000.jpg?v=1627888589",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1599103357101_2000x2000.png.jpg?v=1627888589",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/1599110515339_2000x2000.png.jpg?v=1627888589",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/minta-logo_2000x2000.png.jpg?v=1627888589",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/nasa_2000x2000.jpg?v=1627888589",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/nilly-logo_2000x2000.jpg?v=1627888589",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/share-error_2000x2000.png.jpg?v=1627888589",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/spotify-black_2000x2000.png.jpg?v=1627888589",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/w3logo_2000x2000.jpg?v=1627888589"
+          ],
+          "productUrl": "ran-3.myshopify.com/products/black-adidas-t",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2021-05-23T13:27:54Z",
+          "minimumPriceWithCurrency": "₪150",
+          "maximumPriceWithCurrency": "₪150"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/6564275650594"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d14f887ee9001fdb5253",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d14e81c4a3001edadc79",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/disco-funk.mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "facebookpowerup22",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5f0c49290cc837001e8b1e3e",
+      "mtmSource": "explore",
+      "template": "605073fa1bf094001fdcc38e",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T11:00:32.044Z",
+      "updatedAt": "2021-08-24T11:00:36.046Z",
+      "__v": 1,
+      "score": null,
+      "isPurchased": true
+    },
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d150887ee9001fdb5256",
+            "font": "60db10e2a93a1d001ffcfc4d",
+            "name": "Fjalla One",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/FjallaOne-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": false,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": true
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/izg2gnm2h2cq1k32tqv1ta3coh2z25r42t6win.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/izg2gnm2h2cq1k32tqv1ta3coh2z25r42t6win.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/izg2gnm2h2cq1k32tqv1ta3coh2z25r42t6win_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/izg2gnm2h2cq1k32tqv1ta3coh2z25r42t6win_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 6.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "specialString": [
+                {
+                  "isCaps": true,
+                  "isEditable": true,
+                  "maxLength": 20,
+                  "sentence": [
+                    "Starting at {minimumPriceWithCurrency}"
+                  ],
+                  "mapObj": {
+                    "minimumPriceWithCurrency": "₪8"
+                  },
+                  "sentenceFallback": "Just Landed",
+                  "placeholders": [
+                    [
+                      {
+                        "key": "Just Landed",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "Starting at ₪8"
+                  ],
+                  "initialInjectedValue": [
+                    "Starting at ₪8"
+                  ]
+                }
+              ],
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor11111",
+                      "brandingColor11",
+                      "brandingColor1"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/AbrilFatface-Regular.ttf",
+                  "placeholders": [],
+                  "defaultFontId": "60db104aa93a1d001ffcfc45"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "product1Blur",
+                    "product1",
+                    "product11Blur",
+                    "product11",
+                    "product12"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Puma-Urban-Sports-T-Shirt-Ladies-343084-2-500x500_2000x2000.jpg?v=1589199387"
+                },
+                {
+                  "placeholders": [
+                    "product2Blur",
+                    "product2"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Puma-Urban-Sports-T-Shirt-Ladies-343084-2-500x500_2000x2000.jpg?v=1589199387"
+                },
+                {
+                  "placeholders": [
+                    "product3Matte",
+                    "product3"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Puma-Urban-Sports-T-Shirt-Ladies-343084-2-500x500_2000x2000.jpg?v=1589199387"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 3
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "t-shirt",
+          "id": "gid://shopify/Product/4514248392738",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "8",
+          "maximumPrice": "8",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/Puma-Urban-Sports-T-Shirt-Ladies-343084-2-500x500_2000x2000.jpg?v=1589199387"
+          ],
+          "productUrl": "ran-3.myshopify.com/products/t-shirt",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2020-05-11T12:16:25Z",
+          "minimumPriceWithCurrency": "₪8",
+          "maximumPriceWithCurrency": "₪8"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4514248392738"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d150887ee9001fdb5255",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d14e81c4a3001edadc79",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/underground-magic.mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "facebookpowerup4",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5f0c49290cc837001e8b1e3e",
+      "mtmSource": "explore",
+      "template": "604f67091bf094001fdcc37c",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T11:00:32.144Z",
+      "updatedAt": "2021-08-24T11:00:36.248Z",
+      "__v": 1,
+      "score": null,
+      "isPurchased": true
+    },
+    {
+      "fonts": {
+        "usedFonts": [
+          {
+            "groups": [
+              "Latin"
+            ],
+            "_id": "6124d1501718da001ed596fd",
+            "font": "611a1351fddcc1001e843cdc",
+            "name": "Rubik",
+            "url": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/Rubik-Regular.ttf"
+          }
+        ],
+        "isFallbackFonts": true,
+        "isDefaultFonts": false,
+        "isBrandedFontsUsed": false
+      },
+      "mintaCategories": [
+        "5c615810031074001a70e14f",
+        "5c615822031074001a70e150",
+        "5c615832031074001a70e151"
+      ],
+      "videos": [
+        {
+          "previewImages": [],
+          "mintaProxy": "video-status.withminta.com",
+          "url": "https://campaigns.withminta.com/2938/0000/jo312ps2sby92nx17clt1138i61m157jy271662z.mp4",
+          "urlStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/jo312ps2sby92nx17clt1138i61m157jy271662z.mp4",
+          "previewImage": "https://campaigns.withminta.com/2938/0000/jo312ps2sby92nx17clt1138i61m157jy271662z_image1.jpg",
+          "previewImageStatus": "https://video-status.withminta.com/v2/clipstatus?id=2938/0000/jo312ps2sby92nx17clt1138i61m157jy271662z_image1.jpg",
+          "error": null,
+          "format": "portrait"
+        }
+      ],
+      "finalVideos": [],
+      "footageKeywords": [],
+      "alignment": [],
+      "colour": [
+        "rgb(198, 15, 76)",
+        "rgb(37, 90, 124)"
+      ],
+      "templates": [
+        {
+          "output": {
+            "video": [
+              {
+                "video_type": "mp4",
+                "height": 1350
+              }
+            ],
+            "jpg": [
+              {
+                "height": 1350,
+                "time": 9.04,
+                "suffix": "image1"
+              }
+            ]
+          },
+          "comments": [
+            {
+              "specialString": [
+                {
+                  "isCaps": true,
+                  "isEditable": true,
+                  "maxLength": 20,
+                  "sentence": [
+                    "starting\nat {minimumPriceWithCurrency}"
+                  ],
+                  "mapObj": {
+                    "minimumPriceWithCurrency": "₪7"
+                  },
+                  "sentenceFallback": "SPECIAL\nOFFER",
+                  "placeholders": [
+                    [
+                      {
+                        "key": "Starting at",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "starting\nat ₪7"
+                  ],
+                  "initialInjectedValue": [
+                    "starting\nat ₪7"
+                  ]
+                },
+                {
+                  "isCaps": true,
+                  "isEditable": true,
+                  "maxLength": 20,
+                  "sentence": [
+                    "{title}"
+                  ],
+                  "mapObj": {
+                    "title": "nike t-shirt"
+                  },
+                  "sentenceFallback": "Stunning Items",
+                  "placeholders": [
+                    [
+                      {
+                        "key": "Collection Name",
+                        "is_hidden": true
+                      }
+                    ]
+                  ],
+                  "injectedValue": [
+                    "nike t-shirt"
+                  ],
+                  "initialInjectedValue": [
+                    "nike t-shirt"
+                  ]
+                }
+              ],
+              "brandingColors": {
+                "shouldInjectColors": true,
+                "isEditable": true,
+                "colors": [
+                  {
+                    "placeholders": [
+                      "brandingColor1",
+                      "brandingColor111",
+                      "brandingColor1112"
+                    ]
+                  }
+                ]
+              },
+              "brandingFonts": [
+                {
+                  "shouldChangeFont": true,
+                  "defaultFont": "https://diinr2dte3be5.cloudfront.net/Videofonts/uploader/new/fonts/Anton-Regular.ttf",
+                  "placeholders": [
+                    "Starting at"
+                  ],
+                  "defaultFontId": "60db1073a93a1d001ffcfc47"
+                }
+              ],
+              "productImages": [
+                {
+                  "placeholders": [
+                    "product1Blur",
+                    "product1",
+                    "procut11Blur",
+                    "procut11"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/ar5006-010_1_1_2000x2000.jpg?v=1589708712"
+                },
+                {
+                  "placeholders": [
+                    "product2Blur",
+                    "product2"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/images_2000x2000.jpg?v=1614086815"
+                },
+                {
+                  "placeholders": [
+                    "product3Blur",
+                    "product3"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/images_2000x2000.jpg?v=1614086815"
+                },
+                {
+                  "placeholders": [
+                    "product4Blur",
+                    "product4"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/images_2000x2000.jpg?v=1614086815"
+                },
+                {
+                  "placeholders": [
+                    "product5Blur",
+                    "product5"
+                  ],
+                  "value": "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/ar5006-010_1_1_2000x2000.jpg?v=1589708712"
+                }
+              ],
+              "signatureConfig": {
+                "baseOutputJpgTime": 6
+              }
+            }
+          ]
+        }
+      ],
+      "copyStr": [],
+      "states": [],
+      "isFavorite": false,
+      "isSavedToDraft": false,
+      "reviews": [],
+      "products": [
+        {
+          "title": "nike t-shirt",
+          "id": "gid://shopify/Product/4521242624034",
+          "currency": "ILS",
+          "currencySymbol": "₪",
+          "minimumPrice": "7",
+          "maximumPrice": "7",
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/ar5006-010_1_1_2000x2000.jpg?v=1589708712",
+            "https://cdn.shopify.com/s/files/1/0289/6642/0514/products/images_2000x2000.jpg?v=1614086815"
+          ],
+          "collectionNames": [
+            "frontpage"
+          ],
+          "firstCollectionName": "frontpage",
+          "collectionIds": [
+            null
+          ],
+          "productUrl": "ran-3.myshopify.com/products/nike-t-shirt",
+          "shopUrl": "ran-3.myshopify.com",
+          "createdAt": "2020-05-17T09:44:48Z",
+          "minimumPriceWithCurrency": "₪7",
+          "maximumPriceWithCurrency": "₪7"
+        }
+      ],
+      "footageImages": [],
+      "businessImages": [],
+      "productsIds": [
+        "gid://shopify/Product/4521242624034"
+      ],
+      "downloadedCount": 0,
+      "_id": "6124d1501718da001ed596fc",
+      "videoType": "5da5c9fae7179a02244cd650",
+      "user": "6086bedc665180001e4dd8e1",
+      "campaign": "6124d14e81c4a3001edadc79",
+      "audio": "https://d32izk8zhq0rq.cloudfront.net/assets/template-music/general/general-track-5.mp3",
+      "logo": "https://assets.withminta.com/1629792711375",
+      "templateName": "facebookpowerup1",
+      "introName": "intro2",
+      "outroName": "outro2",
+      "businessAuth": "6086bedc624074001e23d6b5",
+      "useCase": "5f0c49290cc837001e8b1e3e",
+      "mtmSource": "explore",
+      "template": "604f66de1bf094001fdcc379",
+      "businessAuthType": "5e0847eb6b8f05a181d250f6",
+      "hasError": false,
+      "createdAt": "2021-08-24T11:00:32.138Z",
+      "updatedAt": "2021-08-24T11:00:36.346Z",
+      "__v": 1,
+      "score": null,
+      "isPurchased": true
+    }
+  ],
+  "totalDocs": 13,
+  "offset": 0,
+  "limit": 6,
+  "totalPages": 3,
+  "page": 1,
+  "pagingCounter": 1,
+  "hasPrevPage": false,
+  "hasNextPage": true,
+  "prevPage": null,
+  "nextPage": 2
+}
